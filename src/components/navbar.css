@@ -1,0 +1,32 @@
+header {
+  max-width: 1176px;
+  width: 82%;
+
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  margin: 40px auto;
+}
+
+header > nav {
+  display: flex;
+}
+header > nav .hamberger-menu {
+  width: 48px;
+  height: 48px;
+}
+
+header > nav > button {
+  height: 48px;
+  width: 164px;
+  background-color: #202024;
+  border: 1.5px solid #54ffa3;
+  color: #54ffa3;
+  font-size: 15px;
+  margin-right: 28px;
+  font-family: "Inter";
+  border-radius: 10px;
+  font-weight: 500;
+}
