@@ -37,17 +37,19 @@
   background-color: #31313a;
   width: 12rem;
   height: 11rem;
-  margin: 40px auto;
+  margin: 44px auto;
   border-radius: 10px;
   align-items: center;
   display: flex;
   flex-direction: column;
+
+  cursor: pointer;
 }
 .product img {
   width: 10rem;
   height: 10rem;
   position: relative;
-  top: -3rem;
+  top: -2.5rem;
 }
 .product p {
   color: #ffffff;
@@ -56,4 +58,6 @@
 }
 .product:hover {
   border-bottom: 2px solid #54ffa3;
+  position: relative;
+  top: -0.8rem;
 }

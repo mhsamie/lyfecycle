@@ -1,4 +1,5 @@
 import "./App.css";
+import AboutSection from "./components/AboutSection";
 
 import Banner from "./components/Banner";
 import NavBar from "./components/NavBar";
@@ -10,6 +11,7 @@ function App() {
       <main>
         <Banner />
         <Products />
+        <AboutSection />
       </main>
     </div>
   );
