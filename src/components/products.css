@@ -2,7 +2,7 @@
   max-width: 1176px;
   width: 82%;
   position: relative;
-  overflow: hidden;
+
   margin: 136px auto;
   height: 366px;
 }
@@ -30,7 +30,30 @@
   display: flex;
   justify-content: space-between;
 }
+.product-container {
+  width: 300px;
+}
 .product {
-  background-color: #fff;
-  width: 50px;
+  background-color: #31313a;
+  width: 12rem;
+  height: 11rem;
+  margin: 40px auto;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.product img {
+  width: 10rem;
+  height: 10rem;
+  position: relative;
+  top: -3rem;
+}
+.product p {
+  color: #ffffff;
+  position: relative;
+  top: -1.2rem;
+}
+.product:hover {
+  border-bottom: 2px solid #54ffa3;
 }

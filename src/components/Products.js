@@ -18,6 +18,7 @@ const Products = () => {
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 4,
+    arrows: false,
   };
   return (
     <section>
@@ -30,7 +31,7 @@ const Products = () => {
             <button className="carosel-btn prev" onClick={previous}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                className="h-5 w-5"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -44,7 +45,7 @@ const Products = () => {
             <button className="carosel-btn next" onClick={next}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                className="h-5 w-5"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -65,31 +66,115 @@ const Products = () => {
             </div>
           </div>
           <div>
-            <div>
+            <div className="product">
               <img src={productTwo} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div>
+            <div className="product">
               <img src={productThree} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div>
+            <div className="product">
               <img src={productFour} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div>
+            <div className="product">
               <img src={productOne} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div>
+            <div className="product">
+              <img src={productOne} alt="product #1" />
+              <p>Accessories</p>
+            </div>
+          </div>
+          <div>
+            <div className="product">
+              <img src={productTwo} alt="product #1" />
+              <p>Accessories</p>
+            </div>
+          </div>
+          <div>
+            <div className="product">
+              <img src={productThree} alt="product #1" />
+              <p>Accessories</p>
+            </div>
+          </div>
+          <div>
+            <div className="product">
+              <img src={productFour} alt="product #1" />
+              <p>Accessories</p>
+            </div>
+          </div>
+          <div>
+            <div className="product">
+              <img src={productOne} alt="product #1" />
+              <p>Accessories</p>
+            </div>
+          </div>
+          <div>
+            <div className="product">
+              <img src={productOne} alt="product #1" />
+              <p>Accessories</p>
+            </div>
+          </div>
+          <div>
+            <div className="product">
+              <img src={productTwo} alt="product #1" />
+              <p>Accessories</p>
+            </div>
+          </div>
+          <div>
+            <div className="product">
+              <img src={productThree} alt="product #1" />
+              <p>Accessories</p>
+            </div>
+          </div>
+          <div>
+            <div className="product">
+              <img src={productFour} alt="product #1" />
+              <p>Accessories</p>
+            </div>
+          </div>
+          <div>
+            <div className="product">
+              <img src={productOne} alt="product #1" />
+              <p>Accessories</p>
+            </div>
+          </div>
+          <div>
+            <div className="product">
+              <img src={productOne} alt="product #1" />
+              <p>Accessories</p>
+            </div>
+          </div>
+          <div>
+            <div className="product">
+              <img src={productTwo} alt="product #1" />
+              <p>Accessories</p>
+            </div>
+          </div>
+          <div>
+            <div className="product">
+              <img src={productThree} alt="product #1" />
+              <p>Accessories</p>
+            </div>
+          </div>
+          <div>
+            <div className="product">
+              <img src={productFour} alt="product #1" />
+              <p>Accessories</p>
+            </div>
+          </div>
+          <div>
+            <div className="product">
               <img src={productOne} alt="product #1" />
               <p>Accessories</p>
             </div>

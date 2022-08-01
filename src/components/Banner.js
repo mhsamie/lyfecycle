@@ -11,20 +11,20 @@ const Banner = () => {
       <section className="banner">
         <div className="head">
           <h1>Ride where the [LYFE] is Waiting for You</h1>
-          <p class="description">
+          <p className="description">
             Lyfecycle is great for any fitness level. Our great community
             provides a powerful combination of support, motivation and healthy
             competition to help you improve on your performance.
           </p>
           <div className="button-sec">
-            <a href="google.com" class="btn-text">
+            <a href="google.com" className="btn-text">
               Get Started
             </a>
             <div className="hoverEffect"></div>
           </div>
         </div>
         <div>
-          <img src={bannerPic} class="banner-image" alt="banner" />
+          <img src={bannerPic} className="banner-image" alt="banner" />
         </div>
       </section>
       <img className="right-light" src={rightLight} alt="right light" />
