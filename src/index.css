@@ -3,6 +3,16 @@
   margin: 0;
   padding: 0;
 }
+::-webkit-scrollbar {
+  width: 2px;
+}
+::-webkit-scrollbar-track {
+  width: 0px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 40px;
+  background-color: #54ffa3;
+}
 body {
   background-color: #202024;
   color: #ffffff;
