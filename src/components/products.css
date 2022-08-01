@@ -21,10 +21,21 @@
   border-radius: 10px;
   border: none;
   margin: 0 4px;
+  cursor: pointer;
 }
-.btn-prev-next svg {
+.next svg {
   width: 20px;
   color: #ffffff;
+}
+.prev svg {
+  width: 20px;
+  color: #a4a4ab;
+}
+.btn-prev-next button:hover > svg {
+  color: #54ffa3;
+}
+.btn-prev-next button:hover {
+  background-color: rgb(139, 139, 139);
 }
 .carosel-navbar {
   display: flex;
