@@ -1,0 +1,42 @@
+.location-section {
+  max-width: 1176px;
+  width: 82%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 13rem auto;
+}
+.location-image {
+  width: 544px;
+  height: 596px;
+}
+.location-section > div > h2 {
+  width: 574px;
+  height: 128px;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 64px;
+  color: #ffffff;
+}
+.location-section > div > h2 > span {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 64px;
+}
+.location-texts {
+  width: 548px;
+  height: 376px;
+}
+.locTag {
+  width: 144px;
+  height: 28px;
+}
+.location-section div p {
+  width: 548px;
+  height: 112px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #d2d2d2;
+  margin: 16px 0 32px 0;
+}
