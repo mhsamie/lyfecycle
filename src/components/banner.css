@@ -26,10 +26,7 @@
   right: 0;
   z-index: -1;
 }
-.button-sec a {
-  text-decoration: none;
-  color: #31313a;
-}
+
 main > section > .head > h1 {
   width: 510px;
   margin-top: 40px;
@@ -54,76 +51,4 @@ main > section > .head > h1 {
   height: 84px;
   margin-top: 16px;
   box-sizing: border-box;
-}
-
-.button-sec {
-  position: absolute;
-  width: 344px;
-  height: 52px;
-  overflow: hidden;
-  margin-top: 48px;
-  color: #31313a;
-  font-weight: 600;
-  font-size: 15px;
-  background-color: #54ffa3;
-  border-radius: 10px;
-  border: none;
-  z-index: 1;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-}
-.primery-btn {
-  position: absolute;
-
-  overflow: hidden;
-  margin-top: 48px;
-  color: #31313a;
-  font-weight: 600;
-  font-size: 15px;
-  background-color: #54ffa3;
-  border-radius: 10px;
-  border: none;
-  z-index: 0;
-  cursor: pointer;
-}
-.btn-text {
-  z-index: 100000;
-  width: 344px;
-  height: 40px;
-  font-weight: 600;
-  font-size: 15px;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  text-align: center;
-  align-items: center;
-}
-.btn-text:hover {
-  color: #ffffff;
-}
-.hoverEffect {
-  position: absolute;
-  top: 48px;
-  left: 155px;
-  width: 15px;
-  height: 52px;
-  transform: scale(0);
-  overflow: hidden;
-  background: linear-gradient(90deg, #83c98f 0%, #12d1a3 100%);
-}
-.button-sec:hover > .hoverEffect {
-  animation: 1.2s changer ease-in-out alternate 1;
-}
-@keyframes changer {
-  0% {
-    transform: scale(0);
-    opacity: 0.8;
-  }
-  100% {
-    transform: scale(25);
-    opacity: 0.6;
-  }
 }

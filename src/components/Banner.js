@@ -1,8 +1,8 @@
 import "./banner.css";
 import leftLight from "../images/leftlight.png";
-// import inlineLogo from "../images/life.png";
 import bannerPic from "../images/hero.png";
 import rightLight from "../images/rightlight.png";
+import PrimeryBtn from "../UI/PrimeryBtn";
 const Banner = () => {
   return (
     <>
@@ -18,12 +18,7 @@ const Banner = () => {
             provides a powerful combination of support, motivation and healthy
             competition to help you improve on your performance.
           </p>
-          <div className="button-sec">
-            <a href="google.com" className="btn-text">
-              Get Started
-            </a>
-            <div className="hoverEffect"></div>
-          </div>
+          <PrimeryBtn />
         </div>
         <div>
           <img src={bannerPic} className="banner-image" alt="banner" />
