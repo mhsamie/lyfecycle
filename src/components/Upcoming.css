@@ -3,7 +3,7 @@
   width: 82%;
   position: relative;
 
-  margin: 136px auto;
+  margin: 13rem auto;
   height: 366px;
 }
 .carosel-navbar {
@@ -41,7 +41,7 @@
   justify-content: space-between;
 }
 .upcommingcard {
-  width: 340px;
+  width: 350px;
   height: 344px;
   margin: 8px auto;
   border-radius: 10px;
@@ -52,7 +52,7 @@
   position: relative;
 }
 .upcommingcard > .picture-part > img {
-  width: 340px;
+  width: 350px;
   height: 190px;
 }
 .picture-part p {

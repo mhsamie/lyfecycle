@@ -1,0 +1,39 @@
+.trainers-sec {
+  max-width: 1176px;
+  width: 82%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20rem auto 13rem auto;
+}
+.trainers-image {
+  width: 486px;
+  height: 476px;
+}
+.trainers-sec > div > h2 {
+  width: 574px;
+  height: 128px;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 64px;
+  color: #ffffff;
+}
+.trainers-sec > div > h2 > span {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 64px;
+}
+.trainer-tag {
+  width: 129px;
+  height: 28px;
+  margin: 12px 0;
+}
+.trainers-sec div p {
+  width: 576px;
+  height: 112px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #d2d2d2;
+  margin: 16px 0 32px 0;
+}

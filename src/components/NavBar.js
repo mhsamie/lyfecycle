@@ -10,7 +10,7 @@ const NavBar = () => {
       </div>
       <nav>
         <div id="btn">
-          <SecondryBtn />
+          <SecondryBtn width={{ width: "164px" }} text={"Book Now"} />
         </div>
         <div>
           <img className="hamberger-menu" src={hambergerMenu} alt="" />
