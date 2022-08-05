@@ -8,6 +8,7 @@ import Slider from "react-slick";
 const Products = () => {
   const next = () => {
     Slider.slickNext();
+    console.log("clicked");
   };
   const previous = () => {
     Slider.slickPrev();
@@ -36,9 +37,9 @@ const Products = () => {
                 fill="currentColor"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
               </svg>
             </button>
@@ -50,9 +51,9 @@ const Products = () => {
                 fill="currentColor"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
               </svg>
             </button>
@@ -60,121 +61,121 @@ const Products = () => {
         </div>
         <Slider ref={(c) => (Slider = c)} {...settings}>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productOne} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productTwo} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productThree} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productFour} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productOne} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productOne} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productTwo} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productThree} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productFour} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productOne} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productOne} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productTwo} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productThree} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productFour} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productOne} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productOne} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productTwo} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productThree} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productFour} alt="product #1" />
               <p>Accessories</p>
             </div>
           </div>
           <div>
-            <div className="product">
+            <div className="product hbtn hb-border-bottom-br3">
               <img src={productOne} alt="product #1" />
               <p>Accessories</p>
             </div>

@@ -18,7 +18,7 @@ header > nav .hamberger-menu {
   height: 48px;
 }
 
-header > nav > button {
+/* header > nav > button {
   height: 48px;
   width: 164px;
   background-color: #202024;
@@ -29,4 +29,7 @@ header > nav > button {
   font-family: "Inter";
   border-radius: 10px;
   font-weight: 500;
+} */
+#btn {
+  margin-right: 28px;
 }

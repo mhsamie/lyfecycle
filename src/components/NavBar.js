@@ -1,6 +1,7 @@
 import "./navbar.css";
 import logo from "../images/LC-Logo.png";
 import hambergerMenu from "../images/Menu-Icon.png";
+import SecondryBtn from "../UI/SecondryBtn";
 const NavBar = () => {
   return (
     <header>
@@ -8,7 +9,9 @@ const NavBar = () => {
         <img className="logo" src={logo} alt="" />
       </div>
       <nav>
-        <button>Book Now</button>
+        <div id="btn">
+          <SecondryBtn />
+        </div>
         <div>
           <img className="hamberger-menu" src={hambergerMenu} alt="" />
         </div>

@@ -10,7 +10,9 @@ const Banner = () => {
       <img className="left-light" src={leftLight} alt="left light" />
       <section className="banner">
         <div className="head">
-          <h1>Ride where the [LYFE] is Waiting for You</h1>
+          <h1>
+            Ride where the<span> [</span>LYFE<span>]</span> is Waiting for You
+          </h1>
           <p className="description">
             Lyfecycle is great for any fitness level. Our great community
             provides a powerful combination of support, motivation and healthy

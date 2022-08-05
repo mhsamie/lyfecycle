@@ -1,0 +1,29 @@
+#secBtn1111 {
+  background: transparent;
+  overflow: hidden;
+  font-size: 15px;
+  font-family: "Inter";
+  border-radius: 10px;
+  font-weight: 500;
+  border: 1.5px solid #54ffa3;
+  color: #54ffa3;
+  height: 48px;
+  width: 164px;
+  transform: translate(0);
+}
+
+#secBtn1111::before {
+  content: "";
+  position: absolute;
+  background: #54ffa3;
+  width: 5px;
+  top: 0;
+  bottom: 0;
+  left: -32px;
+  transform: rotate(-30deg);
+  filter: blur(4px);
+}
+#secBtn1111:hover::before {
+  left: calc(100% + 32px);
+  transition: 0.9s;
+}

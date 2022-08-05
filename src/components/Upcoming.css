@@ -1,0 +1,110 @@
+.container {
+  max-width: 1176px;
+  width: 82%;
+  position: relative;
+
+  margin: 136px auto;
+  height: 366px;
+}
+.carosel-navbar {
+  margin: 0 0 54px 0;
+}
+.titel {
+  font-weight: 300;
+  font-size: 36px;
+}
+.btn-prev-next button {
+  width: 38px;
+  height: 38px;
+  background-color: #535361;
+  border-radius: 10px;
+  border: none;
+  margin: 0 4px;
+  cursor: pointer;
+}
+.next svg {
+  width: 20px;
+  color: #ffffff;
+}
+.prev svg {
+  width: 20px;
+  color: #a4a4ab;
+}
+.btn-prev-next button:hover > svg {
+  color: #54ffa3;
+}
+.btn-prev-next button:hover {
+  background-color: rgb(139, 139, 139);
+}
+.carosel-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.upcommingcard {
+  width: 340px;
+  height: 344px;
+  margin: 8px auto;
+  border-radius: 10px;
+  background-color: #31313a;
+  cursor: pointer;
+}
+.picture-part {
+  position: relative;
+}
+.upcommingcard > .picture-part > img {
+  width: 340px;
+  height: 190px;
+}
+.picture-part p {
+  position: absolute;
+  bottom: 16px;
+  margin-left: 36px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2px 12px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.upcommingcard h4 {
+  margin: 16px 24px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.location-sec {
+  display: flex;
+
+  align-items: center;
+  margin: 0 27px;
+}
+.location-sec span {
+  color: #d2d2d2;
+  font-family: Inter;
+  font-style: Regular;
+  font-size: 14px;
+  margin-left: 11px;
+}
+.location-sec img {
+  width: 17px;
+  height: 21px;
+}
+.bottom-card {
+  display: flex;
+  margin: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-card #price {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 34px;
+}
+.bottom-card #info {
+  color: #38fff3;
+  font-size: 14px;
+  font-weight: 500;
+}
+.bottom-card #info > span {
+  color: #38fff3;
+  font-size: 18px;
+  font-weight: 500;
+}

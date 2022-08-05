@@ -11,7 +11,9 @@
   width: 561px;
   height: 383px;
 }
-
+.head > h1 > span {
+  color: #54ffa3;
+}
 .left-light {
   position: absolute;
   top: 10px;
