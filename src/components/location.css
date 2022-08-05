@@ -7,11 +7,11 @@
   margin: 0 auto 13rem auto;
 }
 .location-image {
-  width: 544px;
-  height: 596px;
+  width: 520px;
+  height: 586px;
 }
 .location-section > div > h2 {
-  width: 574px;
+  width: 536px;
   height: 128px;
   font-weight: 300;
   font-size: 40px;
@@ -24,7 +24,7 @@
   line-height: 64px;
 }
 .location-texts {
-  width: 548px;
+  width: 530px;
   height: 376px;
 }
 .locTag {
@@ -32,7 +32,7 @@
   height: 28px;
 }
 .location-section div p {
-  width: 548px;
+  width: 530px;
   height: 112px;
   font-size: 14px;
   font-weight: 400;
