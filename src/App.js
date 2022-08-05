@@ -20,7 +20,7 @@ function App() {
         <UpCommingSection />
         <TrainersSection />
         <LocationSection />
-        {/* <CommentSection /> */}
+        <CommentSection />
       </main>
     </div>
   );
