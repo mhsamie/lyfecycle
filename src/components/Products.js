@@ -4,14 +4,14 @@ import productTwo from "../images/product2.png";
 import productThree from "../images/product3.png";
 import productFour from "../images/product4.png";
 import Slider from "react-slick";
+import { useRef } from "react";
 
 const Products = () => {
   const next = () => {
-    Slider.slickNext();
-    console.log("clicked");
+    slider.current.slickNext();
   };
   const previous = () => {
-    Slider.slickPrev();
+    slider.current.slickPrev();
   };
   const settings = {
     dots: true,
@@ -21,6 +21,7 @@ const Products = () => {
     slidesToScroll: 4,
     arrows: false,
   };
+  const slider = useRef(null);
   return (
     <section>
       <div className="container">
@@ -59,7 +60,7 @@ const Products = () => {
             </button>
           </div>
         </div>
-        <Slider ref={(c) => (Slider = c)} {...settings}>
+        <Slider ref={slider} {...settings}>
           <div>
             <div className="product hbtn hb-border-bottom-br3">
               <img src={productOne} alt="product #1" />

@@ -61,7 +61,9 @@
   background: linear-gradient(90deg, #83c98f 0%, #12d1a3 100%);
 }
 .button-sec:hover > .hoverEffect {
-  animation: 1.2s changer ease-in-out alternate 1;
+  animation: 0.9s changer ease-in-out alternate 1;
+  transform: scale(25);
+  opacity: 0.6;
 }
 @keyframes changer {
   0% {
