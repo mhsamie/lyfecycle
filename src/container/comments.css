@@ -1,0 +1,80 @@
+.comments {
+  width: 82%;
+
+  max-width: 1176px;
+  margin: 0 auto;
+}
+.commentTag {
+  width: 130px;
+  height: 28px;
+  margin: 8px auto;
+  display: block;
+  align-items: center;
+}
+.comment-navbar h2 {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 64px;
+  align-items: center;
+  text-align: center;
+}
+.comment-navbar h2 span {
+  font-weight: 600;
+}
+.quote-img {
+  display: block;
+  align-items: center;
+  z-index: -1;
+  margin: 0 auto;
+}
+.comment-navbar {
+  position: relative;
+}
+.smile-img {
+  position: absolute;
+  top: 90px;
+  left: 100px;
+}
+.glow-img {
+  position: absolute;
+  top: 75px;
+  right: 100px;
+}
+.comment {
+  width: 450px;
+  height: 165px;
+  background-color: #31313a;
+  border-radius: 32px 32px 0 32px;
+  margin: 0 auto 20px auto;
+  padding: 24px 32px;
+}
+.slider-container {
+  margin: -30px auto 40px auto;
+}
+.comment p {
+  font-size: 16px;
+  line-height: 28px;
+}
+.btn-container {
+  display: block;
+  margin: 9.5rem auto;
+  width: 344px;
+}
+.personal-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0;
+}
+.personal-info p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+}
+.personal-info p > span {
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+}
+.personal-info img {
+  border-radius: 50%;
+}
