@@ -4,8 +4,13 @@ import smile from "../images/smile.png";
 import glow from "../images/glow.png";
 import quote from "../images/quote-down.png";
 import Slider from "react-slick";
-import PrimeryBtn from "../UI/PrimeryBtn";
+
 import profile from "../images/profile.png";
+import SamplePrevArrow from "../UI/PrevArrow";
+import SampleNextArrow from "../UI/NextArrow";
+import { useRef } from "react";
+
+//
 const CommentSection = () => {
   const settings = {
     dots: true,
@@ -13,9 +18,25 @@ const CommentSection = () => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 2,
+    arrows: false,
   };
+  const next = () => {
+    slider.current.slickNext();
+  };
+  const previous = () => {
+    slider.current.slickPrev();
+  };
+  const slider = useRef(null);
   return (
     <section className="comments">
+      <div id="prev-arrow">
+        {" "}
+        <SamplePrevArrow previous={previous} />
+      </div>
+      <div id="next-arrow">
+        <SampleNextArrow next={next} />
+      </div>
+
       <div className="comment-navbar">
         <img src={commentTag} alt="comment tag" className="commentTag" />
         <h2>
@@ -26,7 +47,7 @@ const CommentSection = () => {
         <img src={quote} alt="qoute" className="quote-img" />
       </div>
       <div className="slider-container">
-        <Slider {...settings}>
+        <Slider ref={slider} {...settings}>
           <div>
             <div className="comment">
               <p>
@@ -100,10 +121,6 @@ const CommentSection = () => {
             </div>
           </div>
         </Slider>
-      </div>
-      <div className="btn-container">
-        {" "}
-        <PrimeryBtn />
       </div>
     </section>
   );

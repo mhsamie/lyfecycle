@@ -1,0 +1,25 @@
+.article-link svg {
+  width: 20px;
+  height: 24px;
+  margin-left: 16px;
+  margin-top: 2px;
+}
+.each-blog-img {
+  width: 350px;
+  height: 204px;
+}
+
+.each-article p {
+  width: 344px;
+  margin: 16px 8px;
+}
+.article-link {
+  text-decoration: none;
+  color: #54ffa3;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 8px;
+}

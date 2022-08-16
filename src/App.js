@@ -2,6 +2,7 @@ import "./App.css";
 import AboutSection from "./components/AboutSection";
 
 import Banner from "./components/Banner";
+import BlogSection from "./components/BlogComponent";
 import LocationSection from "./components/Location";
 import NavBar from "./components/NavBar";
 import Products from "./components/Products";
@@ -21,6 +22,10 @@ function App() {
         <TrainersSection />
         <LocationSection />
         <CommentSection />
+
+        {/* <PrimeryBtn /> */}
+
+        <BlogSection />
       </main>
     </div>
   );

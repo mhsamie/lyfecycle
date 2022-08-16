@@ -1,7 +1,7 @@
 .comments {
-  width: 82%;
-
-  max-width: 1176px;
+  width: 78%;
+  position: relative;
+  max-width: 1080px;
   margin: 0 auto;
 }
 .commentTag {
@@ -41,7 +41,7 @@
   right: 100px;
 }
 .comment {
-  width: 450px;
+  width: 425px;
   height: 165px;
   background-color: #31313a;
   border-radius: 32px 32px 0 32px;
@@ -55,11 +55,7 @@
   font-size: 16px;
   line-height: 28px;
 }
-.btn-container {
-  display: block;
-  margin: 9.5rem auto;
-  width: 344px;
-}
+
 .personal-info {
   display: flex;
   justify-content: space-between;
@@ -77,4 +73,14 @@
 }
 .personal-info img {
   border-radius: 50%;
+}
+#prev-arrow {
+  position: absolute;
+  top: 17rem;
+  left: -2.5rem;
+}
+#next-arrow {
+  position: absolute;
+  top: 17rem;
+  right: -2.5rem;
 }
