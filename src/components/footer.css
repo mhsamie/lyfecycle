@@ -1,0 +1,55 @@
+footer {
+  width: 82%;
+  height: 220px;
+  max-width: 1176px;
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem auto;
+}
+.footer-links {
+  display: grid;
+  gap: 102px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.footer-links div ul li {
+  list-style: none;
+  margin: 0 0 18px 0;
+}
+.footer-links div ul li a {
+  color: #f6f6f6;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer-links div ul li:hover {
+  transform: translateX(7px);
+}
+.footer-links div ul li a:hover {
+  color: #54ffa3;
+}
+.footer-links div p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.footer-links a {
+  text-decoration: none;
+}
+.footer-info {
+  width: 325px;
+}
+.footer-info p {
+  margin: 24px 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #acabb0;
+}
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 130px;
+}
+.social-media > a > svg:hover path {
+  fill: #54ffa3;
+}

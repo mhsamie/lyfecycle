@@ -51,7 +51,7 @@
   color: #ffffff;
 }
 .hoverEffect {
-  position: absolute;
+  position: absolute !important;
   top: 48px;
   left: 155px;
   width: 15px;

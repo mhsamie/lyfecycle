@@ -1,0 +1,59 @@
+.bottom-start {
+  width: 82%;
+  height: 253px;
+  max-width: 1176px;
+  border-radius: 10px;
+  background-color: #31313a;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+}
+.bottom-start div {
+  position: relative;
+}
+.athlete-tag {
+  width: 191px;
+  height: 28px;
+}
+#vector-one {
+  position: absolute;
+  top: 0;
+  left: -38rem;
+}
+#vector-two {
+  position: absolute;
+  left: -40rem;
+  bottom: 0;
+}
+#vector-three {
+  position: absolute;
+  bottom: 0;
+  left: -18rem;
+}
+#vector-three,
+#vector-two,
+#vector-one {
+  z-index: 1;
+}
+#athlete-image {
+  position: absolute;
+  z-index: 2;
+  right: 4.5rem;
+  top: -6.3rem;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 4rem;
+}
+.text-container h1 {
+  font-size: 36px;
+  font-weight: 300;
+  margin-top: 1rem;
+}
+.text-container h1 span {
+  font-size: 36px;
+  font-weight: 600;
+}
